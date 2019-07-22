@@ -1,6 +1,8 @@
-﻿# Classify song genres from audio data
+﻿# Gender classification by transaction
  
-With a dataset comprised of songs of two music genres (Hip-Hop and Rock), this project uses Python3, Numpy, Pandas, with Scikit-learn to train a classifier in order to distinguish between the two genres based only on track information derived from [Echonest](http://the.echonest.com/) (now part of Spotify)
+In this project, we will go thourgh the shopping session data where each row contains the information of a session : session id, session's start time, session's end time, products purchased and the gender of the user in that session.
+
+After that, an attemp to perform a gender classification for users based on their sessions's information will be demonstrated.
 
 ## Installation
 
@@ -29,7 +31,7 @@ If you are familiar with conda environments, you can create a seperate environme
 ```bash
 conda env create -f environment.yml
 ```
-An environment named "used-cars" with necessary packages will be created. Use the command `conda activate csg` to use the environment. To return to your base environment, type `conda deactivate`.
+An environment named "used-cars" with necessary packages will be created. Use the command `conda activate shopping` to use the environment. To return to your base environment, type `conda deactivate`.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
