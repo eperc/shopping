@@ -1,0 +1,12 @@
+name: csg
+channels:
+ - defaults
+dependencies:
+ - python=3.6
+ - numpy
+ - pandas
+ - scikit-learn
+ - matplotlib
+ - jupyter
+  
+
