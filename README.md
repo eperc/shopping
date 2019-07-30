@@ -1,6 +1,20 @@
 ﻿# Gender classification by transaction
  
-In this project, we will go thourgh the shopping session data where each row contains the information of a session : session id, session's start time, session's end time, products purchased and the gender of the user in that session.
+## Summary
+We have two files: trainingData.csv and trainingLabel.csv, accessible at:
+
+[https://github.com/andynganle/Data-for-Assignment](https://github.com/andynganle/Data-for-Assignment)
+
+trainingData.csv contains 15000 rows, each of which stores information of an user shopping session with four columns, separated by commas:
+- The first column stores session ID.
+- The second column stores start time of the session.
+- The third column stores end time of the session.
+- The last column contains a list of products ordered by view time, separated by semicolons. Each product consists of four IDs: the first three IDs are hierarchical category IDs while the last ID is the specific product ID.
+
+trainingLabel.csv also contains 15000 rows that specify gender of corresponding users in
+trainingData. The gender are either male or female.
+ 
+In this project, we will extract some statistical information from the shopping session data, creating valuable features for the classification.
 
 After that, an attemp to perform a gender classification for users based on their sessions's information will be demonstrated.
 
